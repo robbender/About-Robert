@@ -13,25 +13,9 @@
           <li class="pv3 ph2 ma0 link grow">
             <a href="https://github.com/robbender" target="_blank"><font-awesome-icon :icon="['fas', 'code']" transform="shrink-4 down-0 left-0" :mask="['fas', 'circle']" size="4x" @click="code" /></a>
           </li>
-          <li class="pv3 ph2 ma0 link grow">
-            <a href="" target="_blank"><font-awesome-icon :icon="['fas', 'coffee']" flip="horizontal" size="4x" /></a>
-          </li>
+          
           <li class="pv3 ph2 ma0 link grow">
             <a href="" target="_blank"><font-awesome-icon :icon="['far', 'comment']" size="4x" /></a>
-          </li>
-          <li class="pv3 ph2 ma0 link grow">
-            <a href="" target="_blank"><font-awesome-icon icon="child" transform="shrink-4 down-2 right-2" :mask="['fas', 'circle']" size="4x" /></a>
-          </li>
-          <li class="pv3 ph2 ma0 link grow">
-            <a href="" target="_blank"><font-awesome-icon :icon="['fas', 'fighter-jet']" transform="shrink-4 down-2 left-0" :mask="['fas', 'circle']" size="4x" /></a>
-          </li>
-          <li class="pv3 ph2 ma0 link grow">
-            <a href="" target="_blank"><font-awesome-icon :icon="['fas', 'space-shuttle']" transform="shrink-4 up- left-0" :mask="['fas', 'circle']" size="4x" /></a>
-          </li>
-          <!-- <p>Have a module of JavaScript: <font-awesome-icon icon="js" /></p>
-          <p>Have a module of Vue.js: <font-awesome-icon icon="vuejs" /></p> -->
-          <li class="pv3 ph2 ma0 link grow">
-            <a href="" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']" size="4x" /></a>
           </li>
           <li class="pv3 ph2 ma0 link grow">
             <a href="" target="_blank"><font-awesome-icon :icon="['fab', 'github']" size="4x" /></a>
@@ -41,12 +25,6 @@
           </li>
           <li class="pv3 ph2 ma0 link grow">
             <a href="" target="_blank"><font-awesome-icon :icon="queen" size="4x" /></a>
-          </li>
-          <li class="pv3 ph2 ma0 link grow">
-            <a href="" target="_blank"><font-awesome-layers full-width class="fa-4x">
-              <font-awesome-icon :icon="['fas', 'archive']"/>
-              <font-awesome-layers-text class="red8" transform="down-3 shrink-14" value="SECRET" />
-            </font-awesome-layers></a>
           </li>
         </ul>
       </div>
