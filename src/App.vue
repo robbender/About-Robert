@@ -51,7 +51,7 @@
       <v-spacer></v-spacer>
       <v-btn
         flat
-        href="mailto:hello@robertbender.net"
+        href=""
         target="_blank"
       >
         <span class="mr-2">Contact Me</span>
@@ -62,7 +62,8 @@
         </v-btn>
     </v-toolbar>
     <v-content>
-      <Landing/>
+      <Landing />
+      <Skills />
       <!-- <router-view /> -->
     </v-content>
   </v-app>
@@ -70,12 +71,13 @@
 
 <script>
 import Landing from './components/Landing'
+import Skills from './components/Skills'
 
 export default {
   name: 'App',
   components: {
-    Landing
-  
+    Landing,
+    Skills
   },
     data: () => ({
     drawer: false,
