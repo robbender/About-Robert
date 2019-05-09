@@ -51,7 +51,7 @@
       <v-spacer></v-spacer>
       <v-btn
         flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="mailto:hello@robertbender.net"
         target="_blank"
       >
         <span class="mr-2">Contact Me</span>
@@ -63,6 +63,7 @@
     </v-toolbar>
     <v-content>
       <Landing/>
+      <!-- <router-view /> -->
     </v-content>
   </v-app>
 </template>
