@@ -1,4 +1,4 @@
-# vue-crash-todolist-2
+# vue-about-robert
 
 ## Project setup
 ```
