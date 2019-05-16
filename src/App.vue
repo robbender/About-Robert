@@ -75,13 +75,6 @@ export default {
     left: null
   }),
 
-  skills () {
-    return {
-      
-    }
-
-  },
-
   props: {
     source: String
   }
@@ -89,9 +82,16 @@ export default {
 </script>
 
 <style>
-/* .container {
-  background-color: #2b7a78;
-} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+  }
 
 .v-content {
   background-color: #2b7a78;
