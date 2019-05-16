@@ -7,8 +7,7 @@
       <v-flex xs12>
         <main class="w-100 min-vh-100 bg-gray8 sans-serif pa6 flex flex-column justify-center items-center">
       <div class="mw8 center overflow-hidden">
-        <h2 class="tc ttu tracked3 b f2 mt0 mb2 teal0 o-50">About Robert</h2>
-
+        <h2 class="tc ttu tracked3 b f2 mt0 mb2 teal0 o-50">Experience</h2>
         <ul class="list ma0 pa0 flex flex-row flex-wrap teal4">
           <li class="pv3 ph2 ma0 link grow">
             <a href="https://github.com/robbender" target="_blank"><font-awesome-icon :icon="['fas', 'code']" transform="shrink-4 down-0 left-0" :mask="['fas', 'circle']" size="4x" @click="code" /></a>

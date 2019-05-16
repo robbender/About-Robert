@@ -1,12 +1,6 @@
 <template>
   <v-app id="inspire">
-       <v-navigation-drawer
-      fixed
-      v-model="drawerRight"
-      right
-      clipped
-      app
-    >
+    <v-navigation-drawer fixed v-model="drawerRight" right clipped app>
       <v-list dense>
         <v-list-tile @click.stop="right = !right">
           <v-list-tile-action>
@@ -18,13 +12,9 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-navigation-drawer
-      v-model="drawer"
-      fixed
-      app
-    >
+    <v-navigation-drawer v-model="drawer" fixed app>
       <v-list dense>
-        <v-list-tile @click="">
+        <v-list-tile @click>
           <v-list-tile-action>
             <v-icon>home</v-icon>
           </v-list-tile-action>
@@ -32,7 +22,7 @@
             <v-list-tile-title>Home</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile @click="">
+        <v-list-tile @click>
           <v-list-tile-action>
             <v-icon>contact_mail</v-icon>
           </v-list-tile-action>
@@ -49,53 +39,56 @@
         <span class="font-weight-light">Bender</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href=""
-        target="_blank"
-      >
+      <v-btn flat href target="_blank">
         <span class="mr-2">Contact Me</span>
       </v-btn>
-       <v-btn icon>
-         <!-- <v-toolbar-side-icon @click.stop="drawerRight = !drawerRight"></v-toolbar-side-icon> -->
-          <v-icon @click.stop="drawerRight = !drawerRight" >more_vert</v-icon>
-        </v-btn>
+      <v-btn icon>
+        <!-- <v-toolbar-side-icon @click.stop="drawerRight = !drawerRight"></v-toolbar-side-icon> -->
+        <v-icon @click.stop="drawerRight = !drawerRight">more_vert</v-icon>
+      </v-btn>
     </v-toolbar>
     <v-content>
       <Landing />
-      <!-- <Skills /> -->
-      <router-view />
+      <Skills />
+      <About />
+      <router-view/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Landing from './components/Landing'
-import Skills from './components/Skills'
+import Landing from "./components/Landing";
+import Skills from "./components/Skills";
+import About from "./components/About";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Landing,
-    Skills
+    Skills,
+    About
   },
-    data: () => ({
+  data: () => ({
     drawer: false,
     drawerRight: false,
     right: null,
     left: null
   }),
 
+  skills () {
+    return {
+      
+    }
+
+  },
+
   props: {
     source: String
   }
-}  
-
-
+};
 </script>
 
 <style>
-
 /* .container {
   background-color: #2b7a78;
 } */
@@ -108,6 +101,5 @@ export default {
   
     background-color: #def2f1;
 } */
-
 </style>
 
