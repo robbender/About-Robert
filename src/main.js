@@ -6,7 +6,7 @@ import VueRouter from 'vue-router'
 import VeeValidate from 'vee-validate';
  
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee, faChild, faCircle, faArchive, faFighterJet, faSpaceShuttle, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faChild, faCircle, faArchive, faFighterJet, faSpaceShuttle, faCode, faIdBadge} from '@fortawesome/free-solid-svg-icons'
 import { faComment } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
@@ -25,7 +25,8 @@ library.add(
   faGithub,
   faLinkedin,
   faSpaceShuttle,
-  faCode
+  faCode,
+  faIdBadge
 )
 
 Vue.use(Vuetify);
@@ -68,6 +69,14 @@ const router = new VueRouter({
 });
 
 new Vue({
+  el: '#app',
   router,
   render: h => h(App),
-}).$mount('#app')
+
+  data: {
+
+
+  }
+
+})
+// .$mount('#app')

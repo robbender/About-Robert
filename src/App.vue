@@ -63,8 +63,8 @@
     </v-toolbar>
     <v-content>
       <Landing />
-      <Skills />
-      <!-- <router-view /> -->
+      <!-- <Skills /> -->
+      <router-view />
     </v-content>
   </v-app>
 </template>
