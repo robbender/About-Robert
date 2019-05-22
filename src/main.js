@@ -4,7 +4,7 @@ import App from './App.vue'
 import Vuetify from 'vuetify'
 import VueRouter from 'vue-router'
 import VeeValidate from 'vee-validate';
- 
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee, faChild, faCircle, faArchive, faFighterJet, faSpaceShuttle, faCode, faIdBadge} from '@fortawesome/free-solid-svg-icons'
 import { faComment } from '@fortawesome/free-regular-svg-icons'
@@ -12,6 +12,7 @@ import { faTwitter, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-ico
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 import Landing from '@/components/Landing'
 import Skills from '@/components/Skills'
+import router from './router'
 
 
 library.add(
